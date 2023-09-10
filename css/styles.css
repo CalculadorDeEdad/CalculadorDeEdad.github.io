@@ -149,10 +149,6 @@ body {
     outline: none;
 }
 
-.button:hover {
-    background-color: #222;
-}
-
 .button img {
     width: 60%;
 }
@@ -201,5 +197,17 @@ body {
         left: 0;
         right: 0;
         margin: auto;
+    }
+}
+
+@media (hover: hover) {
+    .button:hover {
+        background-color: #222;
+    }
+}
+
+@media (hover: none) {
+    .button:active {
+        background-color: #222;
     }
 }
