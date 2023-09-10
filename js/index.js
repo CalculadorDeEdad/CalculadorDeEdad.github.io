@@ -1,9 +1,9 @@
 "use strict";
 
 const inputs = document.querySelectorAll(".inputs input");
-const dayInput = document.querySelectorAll(".inputs input")[0];
-const monthInput = document.querySelectorAll(".inputs input")[1];
-const yearInput = document.querySelectorAll(".inputs input")[2];
+const dayInput = inputs[0];
+const monthInput = inputs[1];
+const yearInput = inputs[2];
 const btn = document.querySelector(".button");
 const resultYearsDiv = document.querySelectorAll(".result-div")[0];
 const resultMonthsDiv = document.querySelectorAll(".result-div")[1];
